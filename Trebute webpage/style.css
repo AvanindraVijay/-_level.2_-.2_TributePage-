@@ -1,0 +1,114 @@
+/* Default Theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    display: block;
+    margin-right: 26px;
+    width: 450px;
+    border-radius: -22%;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+blockquote {
+    font-style: italic;
+    margin-top: 30px;
+    padding-left: 20px;
+    border-left: 3px solid #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Theme - Light */
+body.theme-light {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header.theme-light {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+main.theme-light {
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote.theme-light {
+    border-left: 3px solid #333;
+}
+
+footer.theme-light {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Theme - Dark */
+body.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+header.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+main.theme-dark {
+    background-color: #444;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+blockquote.theme-dark {
+    border-left: 3px solid #fff;
+}
+
+footer.theme-dark {
+    background-color: #333;
+    color: #fff;
+}
